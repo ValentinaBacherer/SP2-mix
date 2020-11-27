@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentina Bacherer</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div id="logo-container" class="logo">
+            <img src="profile-pic.jpg" width="100px" alt="Imagen de perfil" id="logo">
+        </div>
+        <nav class="nav">
+            <ul id="navbar">
+              <li><a href="index.html" title="Acerca de">About</a></li>
+              <li><a href="courses.html" title="Cursos realizados">Courses</a></li>
+              <li><a href="contact.html" title="Contacto">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- CONTENT -->
+    <section id="contact">
+        <h1>Contacto</h1>
+        <p>Si quieres ponerte en contacto conmigo, llena el formulario y 
+            tomemos un cafe virtual, estoy segura que podemos agendar tu viaje espacial!
+                  
+        </p>
+        <form action="node.js" method="POST">
+            <label for="Nombre">Nombre y apellido</label>
+            <input type="text" id="nombre" required placeholder="Escriba su nombre" maxlength="35"><br>
+            <label for="Contraseña">Contraseña</label>
+            <input id="Contraseña" type="password" required minlength="8" maxlength="30" placeholder="Escriba su contraseña">
+            <label for="Empresa">Empresa</label>
+            <input type="text" name="empresa" id="empresa" placeholder="Escriba su empresa"><br>
+            <label for="Red">Red</label>
+            <input type="number" id="Red" required minlength="1" placeholder="Tamaño de la red">
+            <input type="submit" title="Enviar el formulario" value="Enviar formulario">
+        </form>
+
+    </section>
+
+</body>
+</html>
